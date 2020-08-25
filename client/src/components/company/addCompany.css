@@ -1,0 +1,69 @@
+.addCompany-container {
+    margin: 1rem;;
+display: grid;
+grid-template-columns: 1fr 2fr ;
+grid-gap: 20px;
+background-color: #818486;
+height: 500px;
+}
+.leftGrid {
+background-color:#818486;
+margin: 20px;
+padding: 20px;
+height: 50%;
+}
+.rightGrid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color:#818486;
+    color: white;
+}
+.rightGrid input  {
+    margin-bottom: 10px;
+    width: 40%;
+    background-color: #d0d3d6;;
+    color: white;
+    border: none;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 10
+}
+
+.rightGrid textarea {
+    margin-bottom: 20px;
+    width: 66%;
+    background-color: #d0d3d6;;
+    color: white;
+    border: none;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 10
+}
+.btn-c {
+    width: 80%;
+    background-color: #adadad;
+    color: white;
+    border: none;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 10;
+    margin-bottom: 20px;
+    height: 70px;
+}
+.btn-c:hover{
+    color: #8a8885;
+    background-color: transparent;
+    border: 2px solid #8a8885;
+    
+}

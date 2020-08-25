@@ -1,0 +1,50 @@
+.header {
+    height: 100px;
+    width: 100% ;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(186, 190, 184);
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    
+}
+.logo-container {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.option {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+
+}
+.option:hover { 
+    background-color: rgb(173, 169, 169);
+    color: rgb(250, 239, 194);
+ }
+.logo{
+    width: 150px ;
+    height: 80px;
+}
+@media only screen and (max-width: 600px) {
+   .options{
+       width: 50%;
+   }
+   .option{
+       width:30% ;
+       padding-left: 1px;
+
+   }
+  }

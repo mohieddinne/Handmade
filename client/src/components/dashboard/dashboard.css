@@ -1,0 +1,30 @@
+.dashborad-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: 1px solid white;
+   overflow: hidden;
+}
+.test-box {
+    width: 500px;
+}
+.Notifications  {
+    overflow-x: auto;
+}
+.likes-box {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashborad-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: 1px solid white;
+   overflow: hidden;
+}
+}

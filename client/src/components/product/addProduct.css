@@ -1,0 +1,141 @@
+
+.addProduct-container {
+   margin: 1em;
+    width: 850px;
+    height: 800px;
+}
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    height: 100%;
+   
+}
+.caro-1 {
+    margin: 0;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.caro-1 input  {
+    width: 80%;
+    background-color: #d3d7db;;
+    color: white;
+    border: none;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 10
+}
+.caro-1  textarea {
+    width: 211px;
+    background-color: #d3d7db;;
+    color: white;
+    border: none;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 10
+}
+
+
+
+
+
+
+.caro-2 {
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 20px;
+    color: white; 
+   
+}
+.caro2Content {
+    width: 90%;
+    height: 240px;
+    color: #fff;
+    background: #aaa;
+    margin-bottom: 10px;
+}
+.btn-p {
+    width: 80%;
+    background-color: #464544;
+    color: white;
+    border: none;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 10
+}
+.btn-p:hover{
+    color: #464544;
+    background-color: transparent;
+    border: 2px solid #464544;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #d3d7db;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 3em;
+    line-height: 3;
+    background: #d3d7db;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #d3d7db;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #464544;
+  }
+
+  .caro-2 input[type='file']{
+    bottom: 300px;
+    position: relative;
+    height:300px;
+    width: 90%;
+    opacity:0;
+    cursor:pointer;
+  }

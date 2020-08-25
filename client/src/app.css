@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Open Sans Condensed';
+    
+}
+img{ 
+    border: none; 
+}
+a {
+    text-decoration: none;
+  }
+  .danger {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .success{
+    padding: 20px;
+    background-color:lightseagreen; /* Green */
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  .main {
+    padding-top: 60px
+  }
+  .shopping-icon{
+    width: 30px;
+    height: 50px ;
+  }
+  .App{
+    display: flex !important;
+  
+  }
